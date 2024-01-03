@@ -1,0 +1,171 @@
+
+@media only screen and (max-width: 1200px){
+    #slide-left{
+        display: block;
+    }
+  
+}
+@media only screen and (max-width: 1000px){
+    #portfolio .cont-btn button{
+        height: 100%;
+        width: 49%;
+    }
+    
+}
+
+@media only screen and (max-width: 930px){
+
+    #navbar{
+        width: 0px;
+        padding: 0px;
+    }
+    #checkNav:checked ~ #navbar{
+        width: 250px;
+        padding: 20px;
+        background: linear-gradient(rgba(2, 59, 85, 0.921),rgba(2, 59, 85));
+    }
+    #all-pages{
+        margin-left: 0px;
+    }
+    .navBtn{
+        display: block;
+    }
+    .nav-head img{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+    }
+    .nav-head h3{
+        color: whitesmoke;
+        margin: 10px 0;
+    }
+    .nav-head button{
+        height: 30px;
+        width: 30px;
+        border: none;
+        border-radius: 50%;
+        margin: 10px 5px;
+        color: whitesmoke;
+        cursor: pointer;
+        outline: none;
+    }
+    #about #language{
+        height: 140px;
+        width: 120px;
+    }
+  
+}
+@media only screen and (max-width: 767px){
+    #mobtitle{
+        display: block;
+    }
+    #machtitle{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    #conta-form #small-inpt,#conta-form .form-inpt{
+        width: 100%;
+    }
+    .navBtn{
+       font-size: 15px;
+       padding:5px 10px;
+    }
+    #home h2{
+        font-size: 25px;
+    }
+    #home h5{
+        margin-left: 150px;
+    }
+    #web-designer h1{
+        font-size: 35px;
+    }
+    #about #language{
+        height: 120px;
+        width: 100px;
+    }
+    #mystory-container .row .col-md-6 img{
+        height: 300px;
+    }
+    
+    
+}
+@media only screen and (max-width: 400px){
+    .skill-title{
+        font-size: 15px;
+        padding-left: 10px;
+        transform: translateY(0px);
+        color: black;
+    }
+    .skill-perentage{
+        font-size: 10px;
+    }
+    #home{
+        background-attachment:scroll;
+        padding: 20px 0;
+    }
+    #about #random-facts{
+        background-attachment:scroll;
+        background-position: bottom;
+    }
+    #bignumber h1{
+        position: absolute;
+        font-size: 300px;
+        font-family: "MV Boli";
+        color: #055473;
+        z-index: -1;
+        opacity: .3;
+        left: 0px;
+        top: -100px;
+    }
+    #mystory-container .row .col-md-6 img{
+        height: 220px;
+    }
+   
+}
+@media only screen and (max-width: 370px){
+    #mystory-container .row .col-md-6 img{
+        height: 200px;
+    }
+}
+@media only screen and (max-width: 300px){
+    #home h2{
+        font-size: 20px;
+    }
+    #home h5{
+        margin-left: 150px;
+    }
+    #web-designer h1{
+        font-size: 30px;
+    }
+    #portfolio .cont-btn button{
+        height: 100%;
+        width: 46%;
+    }
+    #conta-form #small-inpt{
+        width: 47%;
+        padding: 5px;
+        margin: 5px;
+    }
+    #conta-form .form-inpt{
+        width: 96%;
+        padding: 5px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+    
+}
+@media only screen and (max-width: 250px){
+    #home h2{
+        font-size: 15px;
+    }
+    #home h5{
+        margin-left: 100px;
+    }
+    #web-designer h1{
+        font-size: 25px;
+    }
+    
+    
+}

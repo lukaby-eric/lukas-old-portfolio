@@ -1,0 +1,668 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="icon" type="image/x-icon" href="assets/images/face.png">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <!---------------------------------------------- Navbar ---------------------------------------------->
+    <input type="checkbox" name="checkNav" id="checkNav" style="display: none;">
+    <label class="navBtn" for="checkNav"><i class="fa fa-bars"></i></label>
+    <section id="navbar">
+        <div id="nav">
+            
+            <div class="nav-head text-center">
+                <div id="navImg">
+                    <img src="assets/images/face.png" alt="">
+                </div>
+                <h6>LUKAS LUBINGO</h6>
+                <button id="facebook"><i class="fa fa-facebook"></i></button>
+                <button id="instagram"><i class="fa fa-instagram"></i></button>
+                <a href="https://www.linkedin.com/in/lukabya-lubingo-114a54277/" target="_blank">
+                    <button id="linkedin"><i class="fa fa-linkedin"></i></button>
+                </a>
+                <a href="https://github.com/lukaby-eric" target="_blank">
+                    <button id="github"><i class="fa fa-github"></i></button>
+                </a>
+            </div><p id="hr-line"></p>
+            <ul id="myUl">
+                <li><a id="nava" href="#home"><i class="fa fa-home"></i> Home</a></li>
+                <li><a id="nava" href="#about"><i class="fa fa-user-o"></i> About</a></li>
+                <li onclick="openCv()"><a id="nava"><i class="fa fa-file-o"></i> Resume</a></li>
+                <li><a id="nava" href="#portfolio"><i class="fa fa-book"></i> Portfolio</a></li>
+                <li onclick="openMystory()"><a id="nava"><i class="fa fa-file-o"></i> My Story</a></li>
+                <li><a id="nava" href="#last"><i class="fa fa-envelope-o"></i> Contact</a></li>
+                
+            </ul><p id="hr-line"></p>
+            <div class="lastcontent">
+                <p>&copy; 2024 Lukas</p>
+                <p>Designed by <b>Lukas Lubingo</b></p>
+            </div>
+        </div>
+    </section>
+
+<section id="all-pages">
+
+</section>
+    <section id="all-pages">
+        <!---------------------------------------------- Home ---------------------------------------------->
+        <section id="home">
+            <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto" >
+                <source src="assets/images/particles_-_53005 (1080p).mp4" type="video/mp4">
+            </video>
+            <div class="container py-5">
+                <div class="row py-5">
+                    <div class="col-lg-8">
+                        <div class="hello">
+                            <h1>Hello,</h1>
+                            <img src="assets/images/hello.png" alt="">
+                        </div><br>
+                        <div>
+                            <h4>My name is <span>Lukas Lubingo</span></h4>
+                            <h4>I am a Web Designer/ Front-end Developer</h4>
+                            <h4>located in Oklahoma City, OK.</h4><br>
+                            <h4>Get to know <a href="#about">more</a> about me!</h4>
+                            <a href="#portfolio"><button id="button">VIEW MY WORK</button></a>
+                        </div>                   
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!---------------------------------------------- About ---------------------------------------------->
+
+        <section id="about">
+            <div class="container">
+                <div id="bignumber">
+                    <h1>1</h1>
+                </div>
+                <h2>About Me</h2><p id="title"></p>
+                <h5>I am a devoted web designer/ front-end developer with over three years of experience and a strong understanding 
+                    of front-end web development. <br>
+                    Excited to bring my exceptional front-end development abilities to the industry.</h5> <br>
+                    <button id="rbutton" onclick="openMystory()">View my story</button>
+                    <h3 class="pt-5">My web development skills</h3> <br>
+                <div id="languages" class="pb-5">
+                    <div class="skil">
+                        <div class="card">
+                            <div class="card-head">
+                                <img src="assets/images/html-logo.png" alt="" id="language">
+                            </div>
+                            <div class="card-body">
+                                HTML
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skil">
+                        <div class="card">
+                            <div class="card-head">
+                                <img src="assets/images/css0logo.png" alt="" id="language">
+                            </div>
+                            <div class="card-body">
+                                CSS
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skil">
+                        <div class="card">
+                            <div class="card-head">
+                                <img src="assets/images/js-logo.png" alt="" id="language">
+                            </div>
+                            <div class="card-body">
+                                JAVASCRIPT
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skil">
+                        <div class="card">
+                            <div class="card-head">
+                                <img src="assets/images/bootstrap-pic.png" alt="" id="language">
+                            </div>
+                            <div class="card-body">
+                                BOOTSTRAP
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skil">
+                        <div class="card">
+                            <div class="card-head">
+                                <img src="assets/images/php-logo.png" alt="" id="language">
+                            </div>
+                            <div class="card-body">
+                                PHP
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skil">
+                        <div class="card">
+                            <div class="card-head">
+                                <img src="assets/images/worpress-logo.png" alt="" id="language">
+                            </div>
+                            <div class="card-body">
+                                WORDPRESS
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <span id="slide-left">Slide left to see more</span>
+                <h3 class="pt-5">When developing a website, I make sure my work is:</h3>
+                <div class="row py-5" id="mywork">
+                    <div class="col-md-3">
+                        <div class="card" id="first-card">
+                            <div class="card-img">
+                                <img src="assets/images/respon.png" alt="">
+                            </div>
+                            <div class="descr">
+                                <h4>Responsive</h4>
+                                <h5>My layouts look and work great on any screen size.</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-img">
+                                <i class="fa fa-lightbulb-o" style="font-size: 25px;"></i>
+                            </div>
+                            <div class="descr">
+                                <h4>Intuitive</h4>
+                                <h5>Easy to understand and navigate user interface (UI/UX).</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-img">
+                                <i class="fa fa-fast-forward"></i>
+                            </div>
+                            <div class="descr">
+                                <h4>Fast</h4>
+                                <h5>I aim for the shortest loading times for my projects.</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card" id="last-card">
+                            <div class="card-img">
+                                <img src="assets/images/accessible.jpg" alt="">
+                            </div>
+                            <div class="descr">
+                                <h4>Accessible</h4>
+                                <h5>Designed to function properly with assistive
+                                     technologies and ensure usability for every visitor.</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h4 id="h4" class="pt-5">To see my skills in action, check out <a href="#portfolio">my portfolio</a> 
+                    or <a href="#last">get in 
+                    touch</a> and tell me about your project idea!</h4> <br>
+                    <br> 
+            </div>
+            <div id="random-facts">
+                <div class="container">
+                    <h3>3 random facts about me:</h3>
+                    <ul>
+                        <li><i class="fa fa-arrows px-2"></i> I love and respect people! Or to put it less weird, I am more of a personal contact type :)</li>
+                        <li><i class="fa fa-arrows px-2"></i> Lived and worked in Africa, now the US... so, you know, I am not afraid of challenges and adventures.</li>
+                        <li><i class="fa fa-arrows px-2"></i> Favorite things to do: traveling, workout, playing guitar, soccer and "cracking the code".</li>
+                    </ul>
+                    <button id="rbutton" onclick="openCv()">View my CV <i class="fa fa-file-pdf-o"></i></button>
+                </div>
+            </div>
+        </section>
+        <!---------------------------------------------- My Story ---------------------------------------------->
+        <sectio id="mystory">
+            <div id="mleft"></div>
+            <div id="mright"></div>
+            <button id="rbutton" onclick="closeMystory()">close</button>
+            <div id="mystory-container" class="container py-5">
+                <h1 class="text-center py-5">my Coding Journey</h1>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4 class="py-4">In 2017, my coding journey began with a brilliant website idea.</h4>
+                    </div>
+                    <div class="col-md-6" id="storyone">
+                        <img src="assets/images/bingo.jpg" alt="">
+                        <p> 
+                            Growing up in a refugee camp in East Africa, Rwanda, my father's 
+                            small carpentry business faced challenges in reaching clients beyond 
+                            the camp's borders. <br> The town's size made it difficult for people to notice 
+                            the business, and most of those nearby couldn't afford the furniture my father crafted.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6" id="storytwo">
+                        <h4 id="mobtitle" class="py-4">Determined to help my father expand his reach</h4>
+                        <img src="assets/images/vrooma.jpg" alt="">
+                    <p>I conceived the idea of creating a 
+                        website to showcase his work and attract more clients. However, I lacked coding skills. 
+                        <br>Undeterred, I conducted thorough research and utilized a <b>WIX</b> website builder to create a basic, 
+                        free website for my father's business. <br>The website proved successful, 
+                        drawing in more customers and generating interest in his carpentry.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h4 id="machtitle">Determined to help my father expand his reach</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4 class="py-4">Within a few months, I began receiving requests from other small businesses to 
+                            assist with their marketing campaigns.</h4>
+                    </div>
+                    <div class="col-md-6" id="storyone">
+                        <img src="assets/images/grandii.jpg" alt="">
+                        <p>Realizing the importance of furthering my 
+                            knowledge, I decided to pursue online coding lessons. <br> Fortunately, 
+                            the UNHCR (United Nations High Commissioner for Refugees) <a href="https://medium.com/unhcr-innovation-service/the-refugee-coding-school-trend-lessons-and-reflections-5b6ee8168bc" target="_blank">opened a six-month, 
+                            one-time coding program</a> in Gihembe refugee camp where I resided. <br> Eager to jumpstart my 
+                            career in web development, 
+                            I applied for admission.</p>
+                        </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6" id="storytwo">
+                        <h4 id="mobtitle" class="py-4">The competition for entry was fierce</h4>
+                        <img src="assets/images/luka.webp" alt="">
+                        <p>Getting into that class was very hard, as the program could only accommodate
+                            11 students due to limited resources. <br> Despite the overwhelming number of applicants, 
+                            my hard work, dedication, 
+                            and prior experience allowed me to secure a spot in the coding school.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h4 id="machtitle">The competition for entry was fierce</h4>
+                        </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4 class="py-4">Although we had a short time to complete so many tasks with <b>Zero</b> coding experience,
+                        I used my time wisely to get something out of it.</h4>
+                    </div>
+                    <div class="col-md-6" id="storyone">
+                        <img src="assets/images/lukaa.webp" alt="">
+                        <p>During the program, we learned the fundamentals of HTML, CSS,
+                            JavaScript, Bootstrap, Java, Python, and SQL. However, due to time 
+                            constraints, we couldn't delve deeply into any specific programming language. 
+                            Nonetheless, I made the most of those six months and continued learning on my own 
+                            after the program concluded. Completing my classes, I 
+                            secured seasonal part-time web design jobs, further honing my skills.</p>
+                        </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6" id="storytwo">
+                        <h4 id="mobtitle" class="py-4">My family move in the United States which opened the door for me to 
+                            continue with my education</h4>
+                        <img src="assets/images/img1.jpg" alt="">
+                        <p>In 2021, my family moved to America, presenting me with the opportunity 
+                        to pursue higher education through a soccer scholarship. Despite the language barrier, 
+                        I dedicated myself to excelling in my first semester of college. I worked tirelessly, 
+                        both inside and outside the classroom, 
+                        to improve my English communication skills and expand my coding abilities.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h4 id="machtitle">My family move in the United States which opened the door for me to 
+                            continue with my education</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6" id="storyone">
+                        <h4 class="py-4">I received an award recognizing my outstanding commitment to 
+                            achieving my career goals.</h4>
+                    </div>
+                    <div class="col-md-6" id="storyone">
+                        <img src="assets/images/img3.jpg" alt="">
+                        <p>My efforts paid off when I received an award recognizing my outstanding commitment to 
+                        achieving my career goals. <br><br> To horn my web development skills, 
+                        I began freelancing and worked with few clients through <a href="https://martinaelena.com/" target="_blank">Martina Elena Web Design Co</a>, 
+                        where I learned the use of WordPress to easily develop websites.</p>
+                        
+                        <input type="checkbox" name="" id="videoss" style="display: none;">
+                        <label for="videoss" id="rbutton">Click here to open videos</label>
+                        <div id="videos-container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <video  muted  controls loop>
+                                        <source src="assets/images/IMG_1377 (1).MOV" type="video/mp4">
+                                    </video>
+                                </div>
+                                <div class="col-md-6">
+                                    <video  muted  controls loop>
+                                        <source src="assets/images/IMG_1377.MOV" type="video/mp4">
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <h4 class="py-4">Thank you for your time, 
+                            It was a pleasure to have you explore my coding journey and learn more about me</h4>
+                        <p>Currently, I am actively seeking opportunities, confident that my 
+                            experience and qualifications makes me a strong candidate for a Front-end Web 
+                            Developer position as well as a Web Designer.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </sectio>
+        <!---------------------------------------------- Resume ---------------------------------------------->
+
+        <section id="resume">
+            <div id="bignumber">
+                <h1>2</h1>
+            </div>
+            <button id="close-cv-btn" class="fa fa-times" onclick="closeCv()"></button>
+            <div class="container py-5">
+                <h2 class="py-3">My Resume</h2><p id="title"></p>
+                <p>
+                    Detail-oriented, multi-task, organized, strong attention to detail, 
+                    and meticulous employee. Works at fast pace to meet tight deadlines. 
+                    Enthusiastic team player ready to contribute to company success. 
+                </p>
+
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="content">
+                            <h3>Summary</h3>
+                            <div id="resume-content">
+                                <h4>Lukabya Lubingo</h4>
+                                <i>Organized and dependable candidate successful at 
+                                    managing multiple priorities with a positive
+                                    attitude. Willingness to take on added 
+                                    responsibilities to meet team goals.</i> <hr>
+
+                                <ul>
+                                    <li>Oklahoma City, Oklahoma</li>
+                                    <li>(816) 914 4602</li>
+                                    <li>ericlukabya@gmail.com</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            <h3>Education</h3>
+                            <div id="resume-content">
+                                <h4>METROPOLITAN COMMUNITY COLLEGE, Kansas City, Mo</h4>
+                                <p id="year">From: Feb 2022 to Present</p>
+                                <p id="descr">I am Currently enrolled, pursuing a degree in software development.
+                                    <br>Studying C#, JAVA, React, and Database management.
+                                </p>
+
+                            </div>
+                            <div id="resume-content">
+                                <h4>ALIGHT CODING SCHOOL, Kigali, Rwa</h4>
+                                <p id="year">From: Feb 2018 to Nov 2019</p>
+                                <p id="descr">I studied the fundamentals of programming and learned the basics of Web design and database management.
+
+                                    During my                 time at this school, I used WordPress, HTML, CSS, BOOTSTRAP, PHP, and, JAVASCRIPT to develop different
+                                    websites for refugees who had businesses in Gihembe refugee camp, Rwanda. which made it
+                                    easier for them to advertise their products on the Internet.</p>
+                            </div>
+                            <div id="resume-content">
+                                <h4>GS. BYUMBA INYANGE, KIGALI, Rwa</h4>
+                                <p id="year">From: Feb 2014 to Nov 2017</p>
+                                <p id="descr">I graduated high school with a GPA of 3.2 in Math, 
+                                    Computer science, Entrepreneurship, and Economics..</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="content">
+                            <h3 id="Professional">Professional Experience</h3>
+                            <div id="resume-content">
+                                <h4>Martina Elena Web Design ·. Contract</h4>
+                                <h5>Web Develper</h5>
+                                <p id="year">May 2023 - Present</p>
+                                <p id="place">Kansas City, Missouri, United States, <b id="remote">Remote</b></p>
+                                <p>Planned website development, converting mockups into usable 
+                                    web presence with HTML, JavaScript, CSS, and Bootstrap coding.
+                                    Coded websites using HTML, CSS, JavaScript, and bootstrap.</p>
+                                    <p>Developed websites using website builders such as WordPress.</p>
+                            </div>
+                            <div id="resume-content">
+                                <h4>Freelance</h4>
+                                <h5>Web Designer</h5>
+                                <p id="year">Jun 2022 - Present</p>
+                                <p id="place">Kansas City, Missouri, United States</p>
+                                <p>Write, analyze, debug, and deliver clean, validated, and maintainable codes.<br>
+                                    Plann website development, converting mockups
+                                    into a usable web presence. <br>
+                                    Code websites using WordPress, HTML, CSS, JavaScript, BOOTSTRAP, and PHP with MYSQL database.
+                                    Verify system integrity by utilizing proper architectural
+                                    designs.</p>
+                            </div>
+                        
+                            <div id="resume-content">
+                                <h4>Alight ·. Seasonal</h4>
+                                <h5>Junior Fron-end Web Developer</h5>
+                                <p id="year">May 2018 - Feb 2020</p>
+                                <p id="place">Kigali City, Rwanda</p>
+                                <p>Provided front-end website development using WordPress, 
+                                    Hubspot, and other editing software. <br>
+                                    Planned website development, converting mockups into 
+                                    usable web presence with HTML, JavaScript, CSS, and Bootstrap coding. <br>
+                                    I developed a technical solution 
+                                    (Helped refugees with small businesses advertise their products online).</p>
+
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <p class="text-center" onclick="closeCv()" id="clse">Close</p>
+            </div>
+        </section>
+
+<!---------------------------------------------- Portfolio ---------------------------------------------->
+<section id="portfolio">
+    <div id="bignumber">
+        <h1>3</h1>
+    </div>
+    <div class="container py-5">
+        <h2>My Portfolio</h2><p id="title"></p>
+        <p>Welcome to my portfolio! This is the place where I bring my skills 
+            to life and showcase them in action. Here, you will find a collection 
+            of websites that I have created from scratch, without relying on website builders. 
+            Each project is a testament to my abilities and serves as a demonstration of what 
+            I am capable of achieving. <br><br>
+
+            Within this portfolio, you will discover a mix of <b class="highlight">personal projects</b>, 
+            <b class="highlight">collaborations with clients</b>, and even some <b class="highlight">recreations</b> of websites that caught my eye. 
+            Feel free to explore them all, as I hope you will find enjoyment and inspiration in each one.<br><br>
+
+            Thank you for visiting, and I hope you have a wonderful time exploring my portfolio!</p>
+        <div class="row py-5">
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="card-top">
+                        <div id="card-img">
+                          <img src="assets/images/vick.png"  id="work-img" width="100%" alt="">  
+                        </div>                 
+                        <div class="project-description">
+                            <p>Simple responsive website for a barbershop, using HTML, CSS, BOOTSTRAP
+                                and JAVASCRIPT. 
+                            </p>
+                            <button id="demo">Demo <i class="fa fa-plus"></i></button>
+                            <a href="https://lukaby-eric.github.io/vick/" target="_blank"><button id="github">Github <i class="fa fa-github"></i></button></a>
+                            <a href="https://vicklines.shop/" target="_blank"><button class="btn btn-primary">WP <i class="fa fa-wordpress"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="card-top">
+                        <div id="card-img">
+                            <img src="assets/images/wineclub.png" id="work-img"  width="100%" alt="">
+                        </div>
+                        <div class="project-description">
+                            <p>A responsive website for Louie's Wine club. Designed using JS, HTML, CSS, and BOOTSTRAP.
+                            </p>
+                            <a href="https://lukaby-eric.github.io/wineClub/" target="_blank"><button id="github">Github <i class="fa fa-github"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="card-top">
+                        <div id="card-img">
+                            <img src="assets/images/mcm.png" id="work-img"  width="100%" alt="">
+                        </div>
+                        <div class="project-description">
+                            <p>I redesigned a Landing page of Martin City Marketing website.I was very impresed by the design of it and decided to try it myself. I used HTML,CSS, JS, and BOOTSRAP
+                            </p>
+                            <a href="https://lukaby-eric.github.io/mcm/" target="_blank"><button id="github">Github <i class="fa fa-github"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- open more -->
+            <button id="more_work_button" onclick="openMoreWork()">View More...</button>
+        </div>
+        <div id="more-work">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-top">
+                            <div id="card-img">
+                                <img src="assets/images/flash.png" id="work-img"  width="100%" alt="">
+                            </div>
+                            <div class="project-description">
+                                <p>I redesigned a Netflix page of The flash series. I used HTML,CSS, JS, and BOOTSRAP
+                                </p>
+                                <button id="demo">Demo <i class="fa fa-plus"></i></button> 
+                                <a href="https://lukaby-eric.github.io/netflix/" target="_blank"><button id="github">Github <i class="fa fa-github"></i></button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-top">
+                            <div id="card-img">
+                                <img src="assets/images/unity.png" id="work-img"  width="100%" alt="">
+                            </div>
+                            <div class="project-description">
+                                <p>I redesigned Unity.com using HTML, CSS, JS, and BOOTSRAP.
+                                </p>
+                                <a href="https://lukaby-eric.github.io/unity/" target="_blank"><button id="github">Github <i class="fa fa-github"></i></button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-top">
+                            <div id="card-img">
+                                <img src="assets/images/rankfuse.png" id="work-img"  width="100%" alt="">
+                            </div>
+                            <div class="project-description">
+                                <p>I redesigned a Landing page of RankFuse Marketing website.I was very impresed by the design of it and decided to try it myself. I used HTML,CSS, JS, and BOOTSRAP
+                                </p>
+                                <a href="https://lukaby-eric.github.io/rank-fuse/" target="_blank"><button id="github">Github <i class="fa fa-github"></i></button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-top">
+                            <div id="card-img">
+                                <img src="assets/images/soon.png" id="work-img"  width="100%" alt="">
+                            </div>
+                            <div class="project-description">
+                                <p>Project not finished yet
+                                </p>
+                                <button id="demo">Demo <i class="fa fa-plus"></i></button> 
+                                <button id="github">Github <i class="fa fa-github"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button id="less_work_button" onclick="closeMoreWork()">Less...</button>
+        </div>
+    </div>
+</section>
+
+<!---------------------------------------------- contact ---------------------------------------------->
+
+<section id="contact">
+    <div class="container">
+        <div id="bignumber">
+            <h1>4</h1>
+        </div>
+        <h5>Dear <b id="titl">Visitor</b></h5>
+        <p><b>Thank you so much</b> for taking the time to visit my portfolio website. 
+            I truly appreciate your interest in my work and the opportunity to showcase my skills and creativity. <br> 
+            It was a pleasure to have you explore my projects and learn more about what I have to offer. <br> 
+            Your support and feedback mean a lot to me, and I am grateful for your presence.  <br>
+            Please feel free to reach out if you have any questions or 
+            if there is anything else I can assist you with. <br><br> Once again, 
+            thank you for stopping by, and I hope you enjoyed your visit!</p>
+        <h2>Contact Me</h2><p id="title"></p>
+        <div class="row">
+            <div class="col-lg-8">
+                <h5>Message me on LinkedIn: 
+                    <a href="https://www.linkedin.com/in/lukabya-lubingo-114a54277/">Lukabya's LinkedIn</a>
+                </h5>
+                <h3>___ You can also get in touch via:</h3>
+                <ul>
+                    <li><a href=""><i class="fa fa-phone"> 816 914 4602</i></a></li>
+                    <li><a href=""><i class="fa fa-envelope-o"> ericlukabya@gmail.com</i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div><span class="dot"></span></div>
+            <div><span class="dot"></span></div>
+            <div><span class="dot"></span></div>
+            <div><span class="dot"></span></div>
+            <div><span class="dot"></span></div>
+            <div><span class="dot"></span></div>
+            <div><span class="dot"></span></div>
+            <div><span class="dot"></span></div>
+            <div><span class="dot"></span></div>
+            <div><span class="dot"></span></div>
+            <div><span class="dot"></span></div>
+            <div><span class="dot"></span></div>
+            <div><span class="dot"></span></div>
+            <div><span class="dot"></span></div>
+            <div><span class="dot"></span></div>
+        </div>
+
+        <div class="snow">
+            <img src="assets/images/sn.webp" alt="">
+            <img src="assets/images/sn2.webp" alt="">
+            <img src="assets/images/sn3.webp" alt="">
+            <img src="assets/images/sn.webp" alt="">
+            <img src="assets/images/sn2.webp" alt="">
+            <img src="assets/images/sn3.webp" alt="">
+        </div>
+    </div>
+</section>
+<div id="last"></div>
+</section>
+<!-- -------------------------------------------- Bottstrap js links--------------------- -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="assets/js/script.js"></script>
+
+    </body>
+</html>
