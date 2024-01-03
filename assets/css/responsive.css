@@ -22,7 +22,7 @@
     #checkNav:checked ~ #navbar{
         width: 250px;
         padding: 20px;
-        background: linear-gradient(rgba(2, 59, 85, 0.921),rgba(2, 59, 85));
+        background: linear-gradient(rgba(1, 23, 33, 0.958),black);
     }
     #all-pages{
         margin-left: 0px;
@@ -69,7 +69,7 @@
         width: 100%;
     }
     .navBtn{
-       font-size: 15px;
+       font-size: 30px;
        padding:5px 10px;
     }
     #home h2{
