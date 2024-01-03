@@ -61,7 +61,7 @@ h3{
     z-index: 444;
 }
 .navBtn:hover{
-    color: rgb(255, 162, 0);
+    color:#087faf;
 }
 .nav-head{
     margin: 10px 0;
@@ -193,7 +193,7 @@ h3{
 #home .hello img{
     width: 40px;
     margin-left: 30px;
-    opacity: .7;
+    opacity: .4;
     animation: hellow 2s linear infinite;
 }
 @keyframes hellow{
