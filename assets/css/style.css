@@ -192,25 +192,25 @@ h3{
 }
 #home .hello img{
     width: 40px;
-    margin-left: 30px;
-    opacity: .4;
-    animation: hellow 2s linear infinite;
+    margin-left: 10px;
+    filter: invert(20);
+    animation: hellow 3s linear infinite;
 }
 @keyframes hellow{
     0%{
-        transform: rotate(10deg);
+        transform: rotate(-10deg);
     }
     25%{
-        transform: rotate(25deg);
+        transform: rotate(-30deg);
     }
     50%{
-        transform: rotate(40deg);
+        transform: rotate(45deg);
     }
     75%{
-        transform: rotate(25deg);
+        transform: rotate(-30deg);
     }
     100%{
-        transform: rotate(10deg);
+        transform: rotate(-10deg);
     }
 }
 #home .col-lg-8{
@@ -604,8 +604,13 @@ h3{
 .highlight{
     color: rgb(236, 173, 14);
 }
+#portfolio a{
+    text-decoration: none;
+}
+
 #portfolio .col-lg-4{
     margin-bottom: 20px;
+    
 }
 #portfolio .card{
     height: 100%;
@@ -618,6 +623,7 @@ h3{
 #portfolio .card:hover{
     background: black;
     cursor: pointer;
+    text-decoration: none;
 }
 #portfolio .card img{
     height: 200px;
@@ -647,8 +653,10 @@ h3{
     background: transparent;
 }
 #portfolio .card .project-description p{
-
     color: black;
+}
+#portfolio .card:hover .project-description p{
+    color: whitesmoke;
 }
 #portfolio .card .project-description{
     background: black;
@@ -656,6 +664,7 @@ h3{
     position: relative;
     z-index: 1;
 }
+
 #portfolio .card .project-description::after{
     content: "";
     position: absolute;
@@ -667,7 +676,21 @@ h3{
     transform: translateY(-25px)skewY(10deg);
     z-index: -1;
 }
-
+#portfolio .card:hover .project-description::after{
+    animation: lkk 2s linear;
+    background: rgb(3, 39, 56);
+}
+@keyframes lkk {
+    0%{
+        background: rgb(3, 39, 56);
+    }
+    50%{
+        background: #087faf;
+    }
+    100%{
+        background: rgb(3, 39, 56);
+    }
+}
 #portfolio .card .project-description #demo{
     padding: 8px 15px;
     border: none;
@@ -681,7 +704,7 @@ h3{
 }
 #demo::before{
     content: "";
-    background: rgb(248, 188, 37);
+    background: rgb(3, 39, 56);
     position: absolute;
     z-index: -1;
     height: 100%;
